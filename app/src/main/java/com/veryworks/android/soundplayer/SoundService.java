@@ -34,6 +34,7 @@ public class SoundService extends Service implements ControlInterface {
 
     List<Sound> datas = new ArrayList<>();
     Controller controller;
+
     public SoundService(){
         controller = Controller.getInstance();
         controller.addObserver(this);

@@ -24,11 +24,12 @@ public class PlayerActivity extends AppCompatActivity implements ControlInterfac
     // 위젯
     ImageButton btnRew, btnPlay, btnFf;
     SeekBar seekBar;
-    TextView txtDuration,txtCurrent;
+    TextView txtDuration, txtCurrent;
     // 리스트 타입
     String list_type = "";
 
     Controller controller;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
